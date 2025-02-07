@@ -8,7 +8,7 @@ app.use(cors(
     {
         origin: '*', // Permitir requisições de qualquer origem
         credentials: true, // Permitir que o token seja transmitido nas respostas
-        allowedHeaders: ['Content-Type',], // Permitir os cabeçalhos 'Content-Type' e 'Authorization'
+        allowedHeaders: ['Content-Type','Authorization'], // Permitir os cabeçalhos 'Content-Type' e 'Authorization'
     }
 ));
 
